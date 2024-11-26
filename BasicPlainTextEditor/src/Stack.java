@@ -8,7 +8,7 @@ public class Stack<T extends Comparable<T>> {
 	List<T> list;
 	
 	/*
-	 * Default constructor (1 mark)
+	 * Default constructor
 	 */
 	public Stack() {
 		list = new List<T>();
@@ -49,14 +49,14 @@ public class Stack<T extends Comparable<T>> {
 	}
 	
 	/*
-	 * Returns the size of the stack (1 mark)
+	 * Returns the size of the stack
 	 */
 	public int size() {
 		return list.getSize();
 	}
 	
 	/*
-	 * Returns whether the stack is empty or not (1 mark)
+	 * Returns whether the stack is empty or not
 	 */
 	public boolean isEmpty() {
 		return list.isEmpty();
